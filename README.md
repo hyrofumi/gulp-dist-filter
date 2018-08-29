@@ -7,7 +7,7 @@ npm install --save-dev https://github.com/hyrofumi/gulp-dist-filter.git
 ```
 
 ## Usage
-Basic.
+Basic:
 
 ```javascript
 const gulp = require('gulp');
@@ -29,7 +29,7 @@ gulp.task('html', ['views'], () => {
 
 With options:
 
-```
+```javascript
 const gulp = require('gulp');
 const filter = require('gulp-dist-filter');
 

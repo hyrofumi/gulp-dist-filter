@@ -44,7 +44,7 @@ function output(options) {
 			let dist = process.cwd();
 			dist = path.resolve(dist, opts.dist_path);
 
-			let file_path = file.path.replace(tmp, "");
+			let file_path = file.path.replace(file.base_opts, "");
 			file_path = path.resolve(dist, `./${file_path}`);
 
 			let _file = file_paths.find((_path)=>{
